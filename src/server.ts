@@ -20,6 +20,6 @@ server.use(mainRoutes);
 
 server.use((req, res) => {
   res.send('Página não encontrada!');
-})
+});
 
 server.listen(process.env.PORT);
